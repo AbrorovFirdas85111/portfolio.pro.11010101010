@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firdavs - Frontend Portfoliosi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header bo'limi -->
+    <header class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h1>Firdavs Frontend Dasturchi</h1>
+            <p>Professional portfolio va loyihalarim</p>
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="#about">Haqimda</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#projects">Loyihalar</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#skills">Ko‘nikmalar</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#contact">Aloqa</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Haqimda bo'limi -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Haqimda</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="profile.jpg" alt="Firdavs profil rasmi" class="img-fluid rounded-circle" style="max-width: 200px;">
+                </div>
+                <div class="col-md-8">
+                    <p>Men Firdavs, tajribali frontend dasturchiman. 1 yillik tajribam bor va HTML, CSS, JavaScript bilan ishlayman. Yangi texnologiyalarni o‘rganish va sifatli kod yozish menga yoqadi.</p>
+                    <p>Mening maqsadim - foydalanuvchi tajribasini yaxshilash va zamonaviy veb-ilovalarni yaratish.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loyihalar bo'limi -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Mening Loyihalarim</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Loyiha 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Loyiha 1</h5>
+                            <p class="card-text">Bu mening birinchi frontend loyiham bo‘lib, HTML, CSS va JS yordamida yaratilgan.</p>
+                            <a href="#" class="btn btn-primary">Ko‘proq</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="project2.jpg" class="card-img-top" alt="Loyiha 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Loyiha 2</h5>
+                            <p class="card-text">Interaktiv veb-sahifa, Bootstrap va jQuery yordamida ishlab chiqarilgan.</p>
+                            <a href="#" class="btn btn-primary">Ko‘proq</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="project3.jpg" class="card-img-top" alt="Loyiha 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Loyiha 3</h5>
+                            <p class="card-text">Responsive dizaynli loyiha, foydalanuvchi interfeysi bilan.</p>
+                            <a href="#" class="btn btn-primary">Ko‘proq</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ko‘nikmalar bo'limi -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Mening Ko‘nikmalarim</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <h4>HTML5</h4>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>CSS3</h4>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>JavaScript</h4>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Bootstrap</h4>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aloqa bo'limi -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Men bilan Bog‘laning</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ismingiz</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Xabar</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Yuborish</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer bo'limi -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Firdavs. Barcha huquqlar himoyalangan.</p>
+            <p><a href="#top" class="text-white">Yuqoriga qaytish</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript fayllari -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
